@@ -61,7 +61,7 @@
 		- functions
 		- quality
 		- resource constraints i.e. costs
-		- ![[Pasted image 20240108195713.png]]
+		- ![[img/Pasted image 20240108195713.png]]
 - architecture design
 	- based on system requirements
 	- defines components of a system:  hardware, software, organizational
@@ -70,7 +70,7 @@
 	- coding and testing of individual components
 - integration:
 	- putting these individual components together
-![[Pasted image 20240108195822.png]]
+![[img/Pasted image 20240108195822.png]]
 
 - qualification testing
 	- testing the system (not just the software)
