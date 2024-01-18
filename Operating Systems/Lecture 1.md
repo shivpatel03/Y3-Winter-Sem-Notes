@@ -332,4 +332,95 @@ Syllabus overview
 		- search performance is O(log_2(n))
 
 
-STOPPED AT SLIDE 45 OF THE SLIDESHOW
+- Hash functions and maps 
+	- takes data as an input, performs operation numerically, returns numeric value
+		- this numeric value can then be used to index into a table (usually array) to quickly retrieve this data
+		- performance can be as good as O(1)
+		- hash functions are used a lot in operating systems
+		- hash collision can be fixed by having a linked list at the table location that contains all the items with the same hash value
+		- Hash map: associates (maps) key:value pairs using a hash function
+- bitmaps
+	- string of n binary digits that can be used to represent the status of n items
+		- example: bitmap 001011101
+			- resources 2, 4, 5, 6, 8 unavailable
+			- 0, 1, 3, 7 are available
+			- 
+
+# Computing Environments 
+- Traditional Computing
+	- stand-alone general purpose machines
+		- but blurred as most systems interconnect with others (i.e., the Internet)
+- Portals give web access to internal systems
+- Network computers are like Web terminals 
+- Networking becoming ubiquitous, even home systems use firewalls to protect home computers from Internet attacks 
+
+
+- Mobile computing 
+	- handheld smartphones, tablets, 
+	- extra OS features, like GPS and Gyroscopes
+	- Allows new types of apps like 'augmented reality'
+
+- distributed computing 
+	- collection of different systems that are networked together
+		- network is a communications path, TCP/IP is most common
+			- LAN (local area network)
+			- WAN (wide area network)
+			- MAN (metropolitan area network)
+			- PAN (personal area network)
+	- Network operating system provides features between systems across network
+		- communication scheme allows systems to exchange message
+		- gives the illusion that it is a single system
+
+- Client-server 
+	- Dumb terminals supplanted by smart PCs
+	- Many systems now servers, respond to requests made by clients
+		- computer-server system provides an interface to client to request services (database for example)
+			- example: server running a database that responds to client requests for data
+		- file-server system provides interface for clients to store and retrieve files
+			- example: web server that delivers files to clients running web browsers
+
+- Peer-to-peer
+	- distributed system
+	- does not have client/servers
+		- all nodes are peers that can act as clients or servers or both
+		- all nodes must join the network
+			- registers its service with central lookup service on network
+			- or broadcast request for service and respond for requests for service via discovery protocol
+- Virtualization
+	- Allows operating systems to run as applications within other operating sysems
+		- vast and growing industry
+	- Emulation is when the source CPU type is different than the target type
+		- generally the slowest
+		- when computer language not compiled in native code
+	- virtualization - OS natively compiled for the CPU, running guest OS's also natively compiled
+		- Consider VMWare running windows 10 guests, each running applications, all on native Windows 10 host operating system
+		- VMM (virtual machine manager) provides virtualization services
+
+
+	- uses case:
+		- involves machines running multiple OSes for exploration or any other reason
+		- VMM can run natively, in which case they are also the host
+
+- Cloud computing
+	- delivers computing, storage, even apps as service across a network
+	- extension of virtualization
+	- many types of cloud computing 
+		- public - available using Internet
+		- private - run by company for the company's use
+		- hybrid - includes both private and public cloud components
+		- Software as a service -> one or more applications available via the Internet (example: word processor)
+		- platform as a service -> software stack ready for application use via the Internet (example: database server )
+		- Infrastructure as a Service -> servers or storage available over Internet (storage available for backup use)
+
+	- are composed of traditional OSes, VMMs and cloud management tools
+		- internet connectivity requires security like firewalls
+		- load balancers spread traffic across multiple applications
+
+# Open Source Operating Systems
+- OSes that are available in source-code format rather than binary closed-source
+- counter to Copy Protection and Digital Rights Management (DRM) movement
+- Started by Free Software Foundation (FSF), which has "copyleft" GNU Public License (GPL)
+- example include Linux
+- can use VMM like VMware player, virtual box (open source and free on all platforms)
+	- used to run guest operating systems for exploration
+	- 
