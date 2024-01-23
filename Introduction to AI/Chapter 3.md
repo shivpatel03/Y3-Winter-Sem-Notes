@@ -147,4 +147,4 @@ percept -> agent -> action -> governing law of environment -> outcome
 - (abstract) action = complex combination of real actions
 	- example: `"Arad -> Zerind"` represents a complex set of all possible routes, detours, rest stops, etc.
 - for guaranteed realizability, any real state `"in Arad"` must get some real state `"in Zerind"` 
-- (abstract) solutiono
+- (abstract) solution
