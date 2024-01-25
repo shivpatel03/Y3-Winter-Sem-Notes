@@ -148,3 +148,39 @@ percept -> agent -> action -> governing law of environment -> outcome
 	- example: `"Arad -> Zerind"` represents a complex set of all possible routes, detours, rest stops, etc.
 - for guaranteed realizability, any real state `"in Arad"` must get some real state `"in Zerind"` 
 - (abstract) solution
+
+# Depth First Search
+- if you have a map, you are able to choose more wisely
+	- this is informed search 
+- if you don't have a map, you have to check every possibility
+	- this is uninformed search
+
+- Breadth first search
+	- based on exploration
+		- "explore all branches that you have in one state all the way through"
+		- in one state you try all the actions and look at the outcome
+		- also create new states
+	- complete: guaranteed that you search from the top and you complete every state
+		- the number of actions that you can take is indefinite, you can't use breadth first search
+	- in what situation do we say that the search algorithm is complete? 
+		- if there is a solution, we are guaranteed to find it
+	- if the search algorithm is able to find the optimal solution
+		- if there is just one solution, the algorithm has to be able to find it in the most efficient way possible
+	- the things we look for in searches:
+		- time complexity
+		- optimal
+		- completeness
+	- B -> number of branches
+	- D -> depth of solution
+	- both the space and time comp of breadth first search is exponential
+		- at least they guarantee that you will find the answer
+- Depth first search
+	- has better space complexity
+	- it guarantees that it can reduce the space used in an algorithm
+	- this is the alternative to BFS
+	- instead of exploring all branches first, go all the way to the bottom and work up from there
+	- uses LIFO
+		- stack data structure
+- question in the exam: 
+	- given the tree, use different algorithms (BFS, DFS, and some other ones)
+		- 
