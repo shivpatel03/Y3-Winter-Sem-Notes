@@ -18,7 +18,7 @@
 # Decision Making Process
 1. Recognize the problem - once we are aware of the problem, solve it as best as we can
 2. define the goal or objective - the goal can be big, an objective can be narrow and specific
-3. assemble relevant data
+3. assemble relevant data - get information through research or
 4. identify feasible alternatives
 5. select the criteria to determine the best alternative
 6. construct a model
@@ -128,4 +128,135 @@
 - if a decision is one where the results are known by a short period of time, it can be determined by:
 	- adding up costs and benefits where alternatives
 	- using this, one can determine the best alternative
-- 
+
+- Example (tile for plant floor - fixed output)
+	- 1000 m^2
+	- Tile A costs
+		- purchase $52/m^2; installation is 37000
+	- Tile B costs
+		- purchase $63/m^2; installation is 28000
+	- select tile A to minimize cost for a fixed output
+
+# Engineering Costs
+- Fixed:
+	- constant unchanging costs
+	- something like a $1000 one-time
+- variable:
+	- depends on the level of output or activity
+	- something like $2.5/unit
+- marginal:
+	- variable cost for one more unit
+- average:
+	- total cost divided by the number of units
+- break-even point: the of activity at which the total cost of a product is equal to the revenue generated
+- profit region: values that are greater than the break-even point
+- loss region: values that are smaller than the break-even point
+
+## Problem
+- A company operates a summer camp. The following cost data for a 12-week summer camp is:
+	- Charge per camper = $400/week -> this is what you are getting for each camper
+	- Variable cost per camper = $220/week -> this is what it costs the company for each camper
+	- Fixed cost = $240,000 per summer season
+	- Capacity per week = 200 campers
+- Determine;
+	- Total number of campers to break even during the season
+		- when total cost = revenue
+		- $200 + 220(12 weeks)**X** = 400(12 weeks)**X**, where X is the number of campers
+		- solving for X -> X=111 campers
+	- profit if the camp is operated at 90% capacity
+		- number of campers = 0.9(200 campers) = 180
+		- `profit = (180 campers)($400 being paid to us)(12 weeks) - ($240,000 + (180 campers)(12 weeks)($220))`
+		- $188,800
+		- we just did the amount of money that is being given to us - the amount of money that we are paying for these campers
+	- the additional profit that can be made if a discount of $100 per week is given for another 10 campers
+		- `10(12)(400-100) - 10(12)(220) = $9600`
+		- amount of money that we get from these 10 campers - the amount of money that we pay for these campers
+- Sunk costs
+	- money already spent because of a past decision
+	- should be disregarded in engineering economic analysis
+- opportunity costs
+	- the cost that comes with using a resource for an alternate task
+	- "an opportunity cost is the benefit that is forgone by engaging a business resource in a chosen activity instead of engaging that same resource in a forgone activity"
+- recurring and non-recurring costs
+	- recurring: cost that reoccurs at regular intervals
+	- non-recurring: one-of-a-kind cost that reoccurs at irregular intervals
+- incremental costs
+	- costs differences between alternatives
+- Cash costs vs Book costs
+	- Cash costs: requires a cash transaction out of one person's pocket into the pocket of someone else
+	- Book costs:
+		- recorded but not transactions
+			- does not represent cash flow, so not included in engineering economics analysis
+- life-cycle costs
+	- designing products, goods, and services with a full and explicit recognition of the associated costs over their life cycles
+	- two concepts;
+		- the later the design change is made, the higher the cost
+		- decisions made early in the life cycle tend to "lock in" costs that will be incurred later
+
+# Cost Estimating 
+- Rough estimates
+	- quick and easy, high level estimates and accuracy varies (from -30% to +60%)
+- Budget estimates
+	- used for budgeting projects where the accuracy is better than a rough estimate to the extra effort used to make a determination (accuracy of -15% to 20%)
+- Detailed estimates
+	- estimates made from detailed designs using quantitative models and vendor quotes (accuracy of -3% to +5%)
+
+- Difficulties in estimation
+	- One-of-a-kind estimation
+		- first run projects and projects that have never been done before
+	- Time and effort available
+		- human resources and time available for making estimates
+
+# Estimating Models 
+- Per-unit model
+	- uses a per-unit factor (example: cost per square foot)
+- Segmenting model
+	- "divide and conquer" approach
+	- individual and component estimates are added together
+- Cost indexing 
+	- historical change in costs as a ration relationship
+- Power-sizing model
+	- used to "scale up" or "scale down" known costs
+- Triangulation
+	- Approaching the estimate using different sources of data or different quantitative models to confirm the value initially calculated
+- Improvement and the Learning Curve
+	- a percentage or rate at which output is increased due to repetition
+	- `T_n = T_initial * N^b`
+	- where: 
+		- `T_n` = time required for Nth unit of production
+		- `T_initial` = time required for first unit production
+		- `N` = number of completed units
+		- `b` = learning curve exponent
+			- `b = (log(learning curve expressed as decimal))/(log(2.0))`
+- The Learning Curve: problem
+	- In a complex assembly operation, it is found that the learning curve rate is 70%. The standard time of 3 minutes per assembly is reached after the 110th unit
+		- calculate the time required for the very first unit
+		- Calculate the time required for the 200th unit
+	- Calculate the time required for the very first unit
+		- `Tn = Tinitial * N^b`
+		- `b = log(0.7)/log(0.2)`
+		- `T_110` = 3 minutes (time it takes to make the 110th unit)
+		- `N` = 110
+		- solve for `T_initial`
+		- 3 = T1 x 110^(log0.7/log0.2)
+			- = 33.70 minutes
+	- Calculate the time it takes to make the 200th unit
+		- T200 = (33.70) x 200^(log0.7/log0.2)
+		- = 2.21 minutes
+
+# Estimating Benefits 
+- economic analysis required analyzing the benefits as well as the costs
+- many of the same methods that can be used to calculate costs are also used to calculate benefits
+- benefits are usually in the future, which make them harder to estimate
+
+# Cash Flow Diagrams 
+- Drawing a cash flow diagram:
+	- show when all cash flows occur
+
+- Categories of cash flow diagrams
+	- first cost: expense of building or of buying and installing
+	- operations and maintenance: annual expense such as electricity, labor, and minor repairs 
+	- salvage value: receipt at project termination for sale or transfer of the equipment (can be a salvage cost)
+	- revenues: annual receipts due to sale of products or services
+	- overhaul: major capital expenditure that occurs during the life of an asset
+	- 
