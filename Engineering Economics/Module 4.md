@@ -88,7 +88,7 @@
 # Simple and Compound Interest Problem 
 - How much would you owe at the end of 4 years using: 
 	- simple interest at 9% per year
-	- compound interest at 9% per yera
+	- compound interest at 9% per year
 - if you borrowed 150000 now
 
 
