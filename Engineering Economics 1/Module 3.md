@@ -137,6 +137,3 @@ all of these factors lead to the cost of the product:
 	- this is because it is based on acquisition cost
 - capital equipment being valued too high or too low depending on the depreciation methods and company policy
 
-$S_0$
-$P_1 D_3 E_9$
-
