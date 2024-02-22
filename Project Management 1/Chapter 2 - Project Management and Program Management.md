@@ -247,3 +247,145 @@ $9091 + 8264 + 7513 + 13660 + 62090 - 100000 = -618$
 
 ## Business Cycle Programmes
 - projects that an organization takes within a particular planning cycle 
+
+## Strategic Programmes 
+- more than one project can implement a single strategy
+- example: merging two organization's computer systems could require several projects, where each one deals with a particular application area. each activity could be treated as its own project, but would be coordinated as a program
+
+## Infrastructure Programmes
+- organizations that many departments, each which carry out self-contained activities
+- example: one department could be responsible for maintaining highways, while another would be responsible for education, etc.
+- all of these activities need their own database and information systems
+- the central information and communication technology would have be used to maintain this infrastructure (including networks, workstations, and servers for these applications to run on)
+- infrastructure programme refers to the activities of identifying a common information and communications technology (ICT) infrastructure and its maintenance/implementation
+
+## Research and Development Programmes 
+- some companies develop and research new things, that generally vary in terms of risk
+- some developments are relatively safe, which results in a product that is not very different from something already on the market
+- risky projects, if successful, can be something completely new
+- a successful portfolio would need to be a mixture of "safe projects" with relatively low returns and some riskier projects that might fail, but if successful then would generate a lot of profit which would offset the cost of the failures
+
+## Innovative Partnerships 
+- companies sometimes come together and work on new technologies in a "pre-competitive" stage
+- different projects in different organizations need to be coordinated and might be done as a programme
+
+# 2.8 Managing the Allocation of Resources within Programmes 
+- typically an information and communications technology department will have pools of particular types of expertise, such as software developers, database designers, etc.
+	- these people might be called up to participate in a number of concurrent projects
+- programme managers will have concerns about the use of specialist staff, while project managers usually don't care
+	- example: a project manager requires a competent systems analysis. whoever fills that spot doesn't matter, as long as the job gets done
+- programme manager vs. project manager
+	- programme manager does more than one project at a time, while a project manager only does one project at a time 
+	- programme manager has a personal relationship with skilled resources, and project managers have impersonal relationship with resource types
+	- programme manger needs to maximize the utilization of resources, while project managers need to minimize the demand for resources
+
+- when a project is planned, when allocating resources, programme management is involved
+- some activities might have to be delayed until technical staff are freed from work
+- when these technical staff are employed full time, you would want to avoid having short periods of a lot of work with longer periods of doing nothing/minimal work
+- when a project is executed, activities could take longer than planned (or even less time sometimes)
+- so programme management is required to monitor the progress of projects and use of resources
+
+# 2.9 Strategic Programme Management 
+- different form of programme management: where portfolio of projects all contribute to common objective
+	- example: business carries out maintenance for clients. customer's experience with this organization is inconsistent. employee who records customer's requirements is different from the people who carry out the maintenance. often, customer has to explain to one company employee something that they explained to another in the past. business objective may be to present a consistent and uniform from to the client
+	- this objective may require changes to number of different systems which have until this point, been self-contained.
+- these types of programmes are more often used by large organizations that have a complex structure
+
+# 2.10 Creating a Programme
+## The Programme Mandate 
+- formal document by the OGC that includes :
+	- the new services/capabilities the program should deliver 
+	- how the organization will be improved with these changes
+	- how programme fits with corporate goals
+- at this point, the programme director has to be given initial leadership for the programme. this person should have someone who has a prominent position in the organization
+
+## The Programme Brief 
+- outlines the business case for the programme. has sections: 
+	- preliminary vision statement which describes the new capacity that organization seeks - "preliminary" because it will be elaborated later
+	- benefits that the program should create (when they are likely to happen and how they might be measured)
+	- risks and issues
+	- estimated costs, timescales and efforts
+
+## The Vision Statement 
+- programme brief should given enough information to stakeholders to decide whether or not a more detailed description of the programme is needed
+- a group is created and a programme manager with day-to-day responsibility for the program would be appointed
+- this group takes the vision statement from the project brief and expands it.
+	- if estimates for cost, performance and service benefits cannot be measured, there should be an indication of how they might be measured
+
+## The Blueprint 
+- contains:
+	- business models outlining new process required
+	- organizational structure - includes members of staff and how their skills will be used
+	- information systems, equipment, non-staff resources that are needed
+	- data and information requirements
+	- costs, performance, and service level requirements
+- blueprint is supported by "benefit profiles" which estimate the expected benefits with implementing the programme. 
+- program should deliver tangible benefits
+- being provided with a capability does not necessarily mean it will be used to get the benefits that are mentioned
+
+- major risk for those whose work is affected by the programme will not be drawn into programme effectively
+	- stakeholder map is used to identify groups of people with an interest in the project and it's outcomes, as well as their particular interests could be drawn up. could be used to write a *communications strategy* and *plan* to show how the appropriate information flows between stakeholders and can be set up and maintained
+
+
+
+# 2.11 Aids to Programme Management
+## Dependency Diagrams
+- shows physical and technical dependencies between projects
+	- example: project to relocate staff from one building to another cannot start until project to construct a new building is done
+
+## Delivery Planning 
+- needs tranches of projects
+- trach is a group of projects that will deliver their products as one step in the programme
+- projects in a tranche should combine to create a new set of benefits for the client. 
+
+
+# 2.12 Some Reservations about Programme Management 
+- THIS IS NOT IN THE SLIDES SO IM GOING TO LEAVE IT 
+
+# 2.13 Benefits Management 
+- providing capability does not necessarily mean capability will be used to deliver the planned benefits
+- benefits management encompasses the identification, optimization, and tracking of the expected benefits from a business change in order to ensure that they are actually received
+- you must:
+	- define expected benefits from programme
+	- analyze the balance between costs and benefits
+	- plan how benefits will be achieved and measured
+	- allocate responsibilities for the successful delivery of benefits 
+	- monitor realization of benefits
+- benefits can be of many types: 
+	- mandatory compliance
+	- quality of service
+	- productivity
+	- more motivated work force
+	- internal management benefits
+	- risk reduction
+	- economy
+	- revenue enhancement/acceleration
+	- strategic fit
+
+## Quantifying Benefits 
+- benefits can be
+	- quantified and valued e.g. a reduction of X staffing saving some amount of money (Y)
+	- quantified but not valued e.g. decrease in the number of customer complaints
+	- identifiable but not easily quantified e.g. public approval of organization in the locality where it is based
+- some activities may also have dis-benefits
+	- example: increased sales might mean that more money may have to be spent on overtime workers
+
+THE REST OF THIS SUB-CHAPTER IS NOT COVERED IN LECTURE SLIDES, I WILL NOT LOOK AT THEM
+
+
+# Remember!
+- a project may fail, not necessarily because of poor management, but because it shouldn't have been started in the first place
+- project may make a profit, but it may be possible to do something else that makes even more profit
+- a real problem is that it is often not possible to express benefits in accurate financial terms
+- projects with the highest potential returns are often the most risky
+
+# Conclusion and Important Points
+ - projects are evaluated on strategic, technical, and economic grounds
+ - sometimes projects are not justifiable on their own, but in the grand scheme of things the project can work with the organization's strategy 
+ - not all benefits can be quantified with money values
+ - economic assessment involves identification of costs and income over the life of the system
+	 - includes development and operation, and checking that the total values of benefits is higher than that of the costs
+ - money received in the future is worth less than the same money in hand now, which can be used to invest and get some amount more
+ - the uncertainty around estimates of future returns lowers their real measured value now
+ - discounted cash flow techniques may be used to evaluate the present value of cash flows taking account of interest rates and uncertainty
+ - cost-benefit analysis techniques and decision trees provide tools for evaluating expected outcomes and choosing between strategies.

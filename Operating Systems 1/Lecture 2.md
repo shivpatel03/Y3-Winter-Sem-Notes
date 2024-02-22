@@ -248,7 +248,7 @@
 - performance tuning can be used to optimize system performance
 	- profiling is periodic sampling of instruction pointer to look for statistical trends
 - performance tuning
-	- improve performance by removing bottlenecks
+		- improve performance by removing bottlenecks
 	- OS gives a way to compute and display measurements of system behavior
 		- `top` in UNIX is a command that will show processes that are using resources
 		- windows task manager shows information about current processes, apps, etc.
