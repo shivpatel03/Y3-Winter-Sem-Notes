@@ -1,4 +1,4 @@
-artifact -> model -> test requirements -> refined requirements/test specs -> input vales -> test cases -> test scripts -> test results -> pass/fail
+	artifact -> model -> test requirements -> refined requirements/test specs -> input vales -> test cases -> test scripts -> test results -> pass/fail
 
 - use the node to indicate the branches that show up in the code
 	- if/else statements break up into two nodes (two new branches) where the first node is the if statement, and the second node is the else statement
