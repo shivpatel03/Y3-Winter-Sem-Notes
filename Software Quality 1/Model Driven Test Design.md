@@ -141,10 +141,10 @@ to compute cyclomatic complexity C:
 		- difference of 5
 	- C = 24 - 19 + 2
 		- gives you cyclomatic complexity of 7
-	- this is just the equation $C = \text{branches} + \text{nodes} + 2$
+	- this is just the equation $C = \text{branches} - \text{nodes} + 2$
 	- there is another equation: $C =  P + 1$
 		- where $P$ is the number of predicates
-		- notice that they are the same in this example (7 on both)
+			- notice that they are the same in this example (7 on both)
 - we started with the notion that we should start with the simplest path
 	- however, that changed to the "base" path
 	- what is the base path? 
